@@ -81,6 +81,8 @@ document.addEventListener("DOMContentLoaded", function (event) {
 // *** start ***
 // On first load, show home view
 showLoading("#main-content");
+
+  /* corrected as part of assignment */
 $ajaxUtils.sendGetRequest(
   allCategoriesUrl,
   buildAndShowHomeHTML, // rk - ***** <---- TODO: STEP 1: Substitute [...] ******
@@ -114,6 +116,8 @@ function buildAndShowHomeHTML (categories) {
       // it into the home html snippet.
       //
       // var homeHtmlToInsertIntoMainPage = ....
+
+      /* changes made to enable random choice category on selection of "specials" tile of website */
       var chosenCategory = chooseRandomCategory(categories); 
       var chosenCategoryShortName = chosenCategory.short_name; 
       homeHtml = insertProperty(homeHtml, "randomCategoryShortName", "'" + chosenCategoryShortName + "'");
