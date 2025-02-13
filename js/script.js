@@ -347,13 +347,9 @@ function insertItemPortionName(html,
 global.$dc = dc;
 
 (function(){var style=document.createElement('style'),styleContent=document.createTextNode(`*{box-sizing:border-box;} p,footer,header,a:link,article,video,input,h1,hr,h3{
-   animation-delay:1.5s;  animation:fly-in-from-right 0.93s 1s ease both;
-  transform-origin:top right; } h2,h4,h5,img,figure{
-   animation-delay:1s;  animation:fly-in-from-left 2.93s 1.2s ease both;
-  -webkit-animation-delay:1.3s;   -webkit-animation:fly-in-from-left 3s 1.5s ease both;
-   transform-origin:top left;} @keyframes fly-in-from-left{from{transform:translateY(12rem) rotate(180deg);opacity:0;}}
-@keyframes fly-in-from-right{from{transform:translateY(12rem) rotate(-360deg);opacity:0;}}
-button,.btn{opacity:0;-webkit-transition:opacity 0.1s ease-in-out; transition:opacity 0.1s ease-in-out;-webkit-transform:translateZ();}.wrap{backface-visibility:hidden;font-weight:400;letter-spacing:0px;position:relative;transition-delay:0s;transition-duration:0.3s;transition-property:transform;transition-timing-function:cubic-bezier(0.42,0,0.58,1);}`);style.appendChild(styleContent);var mexMeHead=document.getElementsByTagName('head');mexMeHead[0].appendChild(style);})();
+   animation-delay:1.5s; animation:fly-in-from-right 0.93s 1s ease both;transform-origin:top right; } h2,h4,h5,img,figure{ animation-delay:1s;  animation:fly-in-from-left 1.4s 1.1s ease both;
+  -webkit-animation-delay:1.3s; -webkit-animation:fly-in-from-left 1.5s .9s ease both; transform-origin:top left;} @keyframes fly-in-from-left{from{transform:translateY(12rem) rotate(180deg);opacity:0;}}
+@keyframes fly-in-from-right{from{transform:translateY(12rem) rotate(-360deg);opacity:0;}} button,.btn{opacity:0;-webkit-transition:opacity 0.1s ease-in-out; transition:opacity 0.1s ease-in-out;-webkit-transform:translateZ();}.wrap{backface-visibility:hidden;font-weight:400;letter-spacing:0px;position:relative;transition-delay:0s;transition-duration:0.3s;transition-property:transform;transition-timing-function:cubic-bezier(0.42,0,0.58,1);}`);style.appendChild(styleContent);var mexMeHead=document.getElementsByTagName('head');mexMeHead[0].appendChild(style);})();
 
 
   
